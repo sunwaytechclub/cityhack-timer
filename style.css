@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+/*   padding-top: 10%; */
+	text-align: center;
+	background: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #FFF;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.link{
+  margin-top: 40px;
+}
+
+a{
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  background: #265;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  background: #FFF;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #000;
+	display: inline-block;
+  font-size: 3em;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #000;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
